@@ -1,3 +1,4 @@
 /venv
 .env
 /assets/post_data.json
+!/assets/
