@@ -39,14 +39,15 @@ def extractpost():
         if comment.body.lower() not in ['[deleted]', '[removed]']:
             post_dict['comments'].append(comment.body)
     
-    post_json = json.dumps(post_dict, indent=2)
+    post_json = json.dumps(post_dict, indent=2, ensure_ascii=False)
     with open("assets/post_data.json", "w") as f:
         f.write(post_json)
 
     print(post_dict)
     print(post_json)
 
-extractpost()
+if __name__ == "__main__":
+    extractpost()
 
 
 
