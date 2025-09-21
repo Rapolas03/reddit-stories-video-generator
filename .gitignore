@@ -2,4 +2,7 @@
 .env
 /assets/post_data.json
 /assets/output.mp3
+/assets/audio/title.mp3
+/assets/audio/body.mp3
+/assets/audio/comment_*.mp3
 !/assets/
