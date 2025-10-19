@@ -17,8 +17,8 @@ def single_file():
 
 
     async def generate_speech(strings, output_file="assets/output.mp3"):
-        text = "   ".join(strings)
-        voice = "en-US-BrianNeural"  # Regural guy voice (might change later)
+        text = " ... ".join(strings)  # each "..." acts as a small pause
+        voice = "en-US-GuyNeural"
         communicate = edge_tts.Communicate(text, voice)
         await communicate.save(output_file)
 
@@ -39,7 +39,7 @@ def multiple_files():
     async def generate_speech(strings, output_dir="assets/audio"):
         audio_files = []
         for label, text in strings:
-            voice = "en-US-BrianNeural"
+            voice = "en-US-GuyNeural"
             filename = os.path.join(output_dir, f"{label}.mp3")
             communicate = edge_tts.Communicate(text, voice)
             await communicate.save(filename)
@@ -59,4 +59,5 @@ def multiple_files():
 #print(post_data_list)
 
 if __name__ == "__main__":
-    multiple_files()
+    #multiple_files()
+    single_file()
