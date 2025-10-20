@@ -26,9 +26,20 @@ def single_file():
         communicate = edge_tts.Communicate(text, voice)
         await communicate.save(output_file)
 
+    title_data = []
+    title_data.append(json_todict['title'])
+    async def genenerate_title_audio(strings, output_file="assets/title_output.mp3"):
+        text = "".join(strings)
+        voice = "en-US-GuyNeural"
+        communicate = edge_tts.Communicate(text, voice)
+        await communicate.save(output_file)
+    
+
 
     asyncio.run(generate_speech(post_data_list))
     print("Speech generated successfully!")
+    asyncio.run(genenerate_title_audio(title_data))
+    print("title audio generated succesufully!")
 
     print("Generating word-level subtitles with Whisper...")
     subprocess.run([

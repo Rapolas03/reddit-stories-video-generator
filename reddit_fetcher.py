@@ -29,8 +29,9 @@ def extractpost():
     submission.comments.replace_more(limit=0)
     comment_list = submission.comments.list()
 
-    post_dict = dict(title = '', body = '', comments = [])
+    post_dict = dict(subreddit = '', title = '', body = '', comments = [])
 
+    post_dict["subreddit"] = f"r/{submission.subreddit.display_name}"
     post_dict["title"] = submission.title
     post_dict['body'] = submission.selftext
 

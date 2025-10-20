@@ -5,9 +5,12 @@ import os
 def fast_tiktok_render(video_path, audio_path, subtitle_path="assets/dynamic_subs.ass", output_path="tiktok_fast.mp4"):
     # Load media to calculate durations
     audio = mp.AudioFileClip(audio_path)
+    audio_title = mp.AudioFileClip("assets/title_output.mp3")
     video = mp.VideoFileClip(video_path)
     total_length = audio.duration
     trim_length = min(video.duration, total_length)
+
+    title_length = audio_title.duration
 
     trimmed_path = "trimmed.mp4"
     with_audio = "combined.mp4"
