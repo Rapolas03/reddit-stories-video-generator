@@ -30,15 +30,16 @@ def single_file():
     asyncio.run(generate_speech(post_data_list))
     print("Speech generated successfully!")
 
-    print("Generating subtitles with Whisper...")
+    print("Generating word-level subtitles with Whisper...")
     subprocess.run([
         "whisper",
         "assets/output.mp3",
         "--model", "base",
-        "--output_format", "srt",
-        "--output_dir", "assets"
+        "--output_format", "json",
+        "--output_dir", "assets",
+        "--word_timestamps", "True"
     ])
-    print("Subtitles generated!")
+    print("Word-level subtitles generated!")
 
 #tranfering every part of json file in to a list and generating multiple audio files
 def multiple_files():
