@@ -13,7 +13,6 @@ def single_file():
     post_data_list = []
     post_data_list.append(json_todict['title'])
     post_data_list.append(" ... ")
-    post_data_list.append(" ... ")
     post_data_list.append(json_todict['body'])
     post_data_list.append(" ... ")
     for comment in json_todict['comments']:
