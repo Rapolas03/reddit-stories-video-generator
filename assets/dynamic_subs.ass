@@ -12,16 +12,25 @@ Style: Default,Arial,70,&H00FFFFFF,&H00FFFF00,&H00000000,&H80000000,-1,0,0,0,100
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
-Dialogue: 0,0:00:00.00,0:00:01.98,Default,,0,0,0,,{\k36}People {\k20}who {\k37}haven't {\k26}pooped {\k10}in {\k68}2019
-Dialogue: 0,0:00:01.98,0:00:03.75,Default,,0,0,0,,{\k56}yet, {\k20}why {\k8}are {\k10}you {\k21}still {\k35}holding
-Dialogue: 0,0:00:03.75,0:00:04.83,Default,,0,0,0,,{\k20}on {\k16}to {\k17}last {\k41}year's {\k12}shit?
-Dialogue: 0,0:00:05.66,0:00:07.33,Default,,0,0,0,,{\k35}But {\k14}when {\k12}I {\k33}finally {\k25}do, {\k20}it'll
-Dialogue: 0,0:00:07.33,0:00:08.72,Default,,0,0,0,,{\k12}be {\k13}the {\k28}year's {\k23}biggest {\k30}shit {\k30}happy
-Dialogue: 0,0:00:08.72,0:00:10.46,Default,,0,0,0,,{\k27}face {\k33}happy {\k30}face {\k27}carrot {\k22}so {\k32}happy
-Dialogue: 0,0:00:10.46,0:00:13.27,Default,,0,0,0,,{\k35}face {\k24}happy {\k33}face {\k25}carrot {\k30}far. {\k51}I've
-Dialogue: 0,0:00:13.27,0:00:14.58,Default,,0,0,0,,{\k10}been {\k39}pissing {\k12}out {\k17}my {\k30}ass {\k19}all
-Dialogue: 0,0:00:14.58,0:00:15.22,Default,,0,0,0,,{\k33}fucking {\k30}day.
-Dialogue: 0,0:00:16.07,0:00:17.42,Default,,0,0,0,,{\k32}Bold {\k17}of {\k10}you {\k16}to {\k32}assume {\k26}I'm
-Dialogue: 0,0:00:17.42,0:00:18.42,Default,,0,0,0,,{\k15}going {\k16}to {\k16}take {\k12}a {\k17}shit {\k22}this
-Dialogue: 0,0:00:18.42,0:00:20.66,Default,,0,0,0,,{\k23}year. {\k46}We {\k14}have {\k23}guests {\k28}and {\k14}I
-Dialogue: 0,0:00:20.66,0:00:21.76,Default,,0,0,0,,{\k32}literally {\k48}can't {\k30}relax.
+Dialogue: 0,0:00:00.00,0:00:01.86,Default,,0,0,0,,{\k24}The {\k28}time {\k14}I {\k44}accidentally {\k57}became {\k18}a
+Dialogue: 0,0:00:01.86,0:00:03.24,Default,,0,0,0,,{\k28}hero {\k23}with {\k14}the {\k33}company {\k38}picnic.
+Dialogue: 0,0:00:03.89,0:00:05.48,Default,,0,0,0,,{\k56}They {\k16}had {\k20}one {\k12}of {\k17}those {\k36}giant
+Dialogue: 0,0:00:05.48,0:00:07.16,Default,,0,0,0,,{\k63}inflatable {\k47}obstacle {\k56}courses.
+Dialogue: 0,0:00:07.90,0:00:09.75,Default,,0,0,0,,{\k50}The {\k48}CEO, {\k8}a {\k17}man {\k13}in {\k14}his
+Dialogue: 0,0:00:09.75,0:00:11.80,Default,,0,0,0,,{\k51}50s, {\k20}challenged {\k25}the {\k30}interns {\k23}to {\k26}erase,
+Dialogue: 0,0:00:12.30,0:00:14.17,Default,,0,0,0,,{\k25}boasting {\k25}about {\k17}his {\k33}college {\k83}athleticism.
+Dialogue: 0,0:00:15.01,0:00:17.23,Default,,0,0,0,,{\k50}Halfway {\k28}through, {\k10}he {\k13}got {\k50}completely {\k33}stuck
+Dialogue: 0,0:00:17.23,0:00:18.19,Default,,0,0,0,,{\k20}in {\k11}the {\k22}tunnel {\k41}section.
+Dialogue: 0,0:00:19.14,0:00:20.76,Default,,0,0,0,,{\k30}His {\k21}legs {\k21}were {\k33}kicking, {\k10}but {\k12}he
+Dialogue: 0,0:00:20.76,0:00:23.64,Default,,0,0,0,,{\k35}wasn't {\k27}moving. {\k25}The {\k38}entire {\k46}company {\k21}was
+Dialogue: 0,0:00:23.64,0:00:24.92,Default,,0,0,0,,{\k37}watching {\k16}in {\k28}awkward {\k46}silence.
+Dialogue: 0,0:00:25.87,0:00:27.92,Default,,0,0,0,,{\k40}I, {\k9}a {\k32}lowly {\k16}new {\k32}hire, {\k20}crawled
+Dialogue: 0,0:00:27.92,0:00:29.01,Default,,0,0,0,,{\k9}in {\k30}behind {\k21}him {\k8}and {\k39}pushed.
+Dialogue: 0,0:00:30.00,0:00:31.12,Default,,0,0,0,,{\k16}The {\k26}sound {\k17}he {\k16}made {\k21}was {\k14}a
+Dialogue: 0,0:00:31.12,0:00:32.52,Default,,0,0,0,,{\k14}mix {\k21}of {\k37}surprise {\k34}and {\k32}relief.
+Dialogue: 0,0:00:33.39,0:00:34.79,Default,,0,0,0,,{\k42}I {\k29}emerged {\k24}to {\k10}a {\k17}round {\k15}of
+Dialogue: 0,0:00:34.79,0:00:36.17,Default,,0,0,0,,{\k30}applause, {\k11}and {\k14}for {\k12}the {\k15}rest {\k17}of
+Dialogue: 0,0:00:36.17,0:00:37.38,Default,,0,0,0,,{\k11}the {\k22}year, {\k15}he'd {\k16}call {\k15}me {\k12}the
+Dialogue: 0,0:00:37.38,0:00:37.70,Default,,0,0,0,,{\k32}pusher.
+Dialogue: 0,0:00:38.56,0:00:40.11,Default,,0,0,0,,{\k32}It {\k11}was {\k17}the {\k50}strangest {\k24}boost {\k19}to
+Dialogue: 0,0:00:40.11,0:00:41.32,Default,,0,0,0,,{\k14}my {\k34}career {\k19}I {\k26}ever {\k25}got.

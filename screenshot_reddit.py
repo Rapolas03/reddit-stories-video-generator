@@ -48,7 +48,7 @@ class RedditPostImage:
         lines.append(current_line)
         return lines
         
-    def create_post_image(self, title, body, subreddit, width=1080, padding=40):
+    def create_post_image(self, title, body="", subreddit="sd", width=1080, padding=40):
         """
         Create a Reddit-style post image
         
@@ -163,7 +163,7 @@ class RedditPostImage:
             y_position += body_line_height
         
         # Save the image
-        filename = f"reddit_post_{title[:30].replace(' ', '_').replace('/', '_')}.png"
+        filename = f"new.png"
         filepath = os.path.join(self.output_dir, filename)
         img.save(filepath)
         
@@ -187,7 +187,7 @@ class RedditPostImage:
         
         return self.create_post_image(
             title=post_data['title'],
-            body=post_data['body'],
+            #body=post_data['body'],
             subreddit=post_data['subreddit']
         )
 

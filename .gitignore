@@ -5,6 +5,7 @@ __pycache__/
 .env
 tiktok_fast.mp4
 /assets/post_data.json
+/assets/screenshots/new.png
 /assets/output.json
 /assets/dynamic_subs.ass
 /assets/output.mp3
