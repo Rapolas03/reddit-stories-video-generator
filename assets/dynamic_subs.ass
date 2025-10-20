@@ -12,43 +12,16 @@ Style: Default,Arial,70,&H00FFFFFF,&H00FFFF00,&H00000000,&H80000000,-1,0,0,0,100
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
-Dialogue: 0,0:00:00.00,0:00:01.37,Default,,0,0,0,,{\k38}What's {\k12}your {\k18}best {\k38}story {\k17}that {\k13}is
-Dialogue: 0,0:00:01.37,0:00:03.48,Default,,0,0,0,,{\k46}100 {\k40}% {\k31}real {\k19}but {\k38}nobody {\k33}believes
-Dialogue: 0,0:00:03.48,0:00:03.75,Default,,0,0,0,,{\k27}you?
-Dialogue: 0,0:00:04.78,0:00:06.08,Default,,0,0,0,,{\k13}Hit {\k17}me {\k18}with {\k13}your {\k28}best {\k37}shot.
-Dialogue: 0,0:00:07.09,0:00:09.17,Default,,0,0,0,,{\k30}Edit, {\k13}wow, {\k5}I {\k24}really {\k36}didn't {\k29}expect
-Dialogue: 0,0:00:09.17,0:00:10.53,Default,,0,0,0,,{\k24}this {\k40}response {\k27}from {\k17}you {\k25}all.
-Dialogue: 0,0:00:11.48,0:00:13.01,Default,,0,0,0,,{\k32}I've {\k8}had {\k25}great {\k27}fun {\k32}reading {\k27}some
-Dialogue: 0,0:00:13.01,0:00:13.75,Default,,0,0,0,,{\k20}of {\k11}your {\k41}comments.
-Dialogue: 0,0:00:14.82,0:00:16.23,Default,,0,0,0,,{\k21}My {\k26}friend {\k21}got {\k12}a {\k17}girl {\k41}pregnant
-Dialogue: 0,0:00:16.23,0:00:17.53,Default,,0,0,0,,{\k26}when {\k10}he {\k17}was {\k37}13 {\k23}and {\k14}the
-Dialogue: 0,0:00:17.53,0:00:18.37,Default,,0,0,0,,{\k22}girl {\k23}was {\k37}15.
-Dialogue: 0,0:00:19.37,0:00:20.62,Default,,0,0,0,,{\k28}They {\k17}met {\k17}at {\k14}the {\k32}beach {\k14}in
-Dialogue: 0,0:00:20.62,0:00:21.85,Default,,0,0,0,,{\k23}Panama {\k46}City, {\k32}Florida.
-Dialogue: 0,0:00:22.67,0:00:24.05,Default,,0,0,0,,{\k44}She {\k17}was {\k21}rich {\k17}and {\k16}lived {\k19}in
-Dialogue: 0,0:00:24.05,0:00:25.67,Default,,0,0,0,,{\k28}Ohio, {\k8}he {\k17}was {\k23}poor {\k24}and {\k21}lived
-Dialogue: 0,0:00:25.67,0:00:26.17,Default,,0,0,0,,{\k17}in {\k32}Georgia.
-Dialogue: 0,0:00:27.01,0:00:28.92,Default,,0,0,0,,{\k35}My {\k30}friend {\k28}never {\k23}told {\k37}anyone {\k34}but
-Dialogue: 0,0:00:28.92,0:00:29.14,Default,,0,0,0,,{\k21}me.
-Dialogue: 0,0:00:30.00,0:00:31.44,Default,,0,0,0,,{\k28}He {\k14}is {\k17}now {\k51}28 {\k17}and {\k14}has
-Dialogue: 0,0:00:31.44,0:00:32.92,Default,,0,0,0,,{\k16}a {\k33}15 {\k26}year {\k19}old {\k20}kid {\k32}only
-Dialogue: 0,0:00:32.92,0:00:33.61,Default,,0,0,0,,{\k15}I {\k16}know {\k37}about.
-Dialogue: 0,0:00:34.26,0:00:35.84,Default,,0,0,0,,{\k43}The {\k21}only {\k35}reason {\k15}he {\k14}got {\k26}away
-Dialogue: 0,0:00:35.84,0:00:37.24,Default,,0,0,0,,{\k19}with {\k11}it {\k18}is {\k23}because {\k28}this {\k38}girl's
-Dialogue: 0,0:00:37.24,0:00:38.39,Default,,0,0,0,,{\k28}family {\k21}was {\k32}super {\k33}rich.
-Dialogue: 0,0:00:39.28,0:00:40.53,Default,,0,0,0,,{\k21}The {\k20}girl {\k19}never {\k30}said {\k17}who {\k15}the
-Dialogue: 0,0:00:40.53,0:00:42.02,Default,,0,0,0,,{\k16}guy {\k23}was {\k21}and {\k14}would {\k38}sometimes {\k34}fly
-Dialogue: 0,0:00:42.02,0:00:43.24,Default,,0,0,0,,{\k23}down {\k14}to {\k24}visit {\k20}him {\k7}in {\k32}secret.
-Dialogue: 0,0:00:44.24,0:00:45.53,Default,,0,0,0,,{\k21}I {\k11}did {\k17}not {\k34}believe {\k25}this {\k17}shit
-Dialogue: 0,0:00:45.53,0:00:46.88,Default,,0,0,0,,{\k28}until {\k15}I {\k20}saw {\k34}pictures {\k23}of {\k12}his
-Dialogue: 0,0:00:46.88,0:00:47.11,Default,,0,0,0,,{\k23}kid.
-Dialogue: 0,0:00:48.10,0:00:49.39,Default,,0,0,0,,{\k28}His {\k19}kid {\k20}has {\k24}never {\k19}met {\k17}him
-Dialogue: 0,0:00:49.39,0:00:50.47,Default,,0,0,0,,{\k24}either {\k15}and {\k12}I {\k11}do {\k16}not {\k27}think
-Dialogue: 0,0:00:50.47,0:00:51.70,Default,,0,0,0,,{\k17}he {\k24}even {\k20}knows {\k21}he {\k38}exists.
-Dialogue: 0,0:00:52.65,0:00:54.15,Default,,0,0,0,,{\k34}I {\k28}always {\k42}daydream {\k19}that {\k12}if {\k13}my
-Dialogue: 0,0:00:54.15,0:00:55.25,Default,,0,0,0,,{\k30}friend {\k19}died {\k18}I {\k13}would {\k12}have {\k15}to
-Dialogue: 0,0:00:55.25,0:00:56.53,Default,,0,0,0,,{\k14}tell {\k17}his {\k28}parents {\k24}that {\k11}he {\k32}actually
-Dialogue: 0,0:00:56.53,0:00:56.88,Default,,0,0,0,,{\k24}had {\k10}a
-Dialogue: 0,0:00:56.88,0:00:57.74,Default,,0,0,0,,{\k23}kid {\k16}and {\k14}they {\k11}had {\k7}been {\k12}a
-Dialogue: 0,0:00:57.74,0:00:59.64,Default,,0,0,0,,{\k25}grandma {\k35}slash {\k34}grandpa {\k25}for {\k35}15 {\k32}years
-Dialogue: 0,0:00:59.64,0:01:00.43,Default,,0,0,0,,{\k21}and {\k21}never {\k17}knew {\k17}it.
+Dialogue: 0,0:00:00.00,0:00:01.98,Default,,0,0,0,,{\k36}People {\k20}who {\k37}haven't {\k26}pooped {\k10}in {\k68}2019
+Dialogue: 0,0:00:01.98,0:00:03.75,Default,,0,0,0,,{\k56}yet, {\k20}why {\k8}are {\k10}you {\k21}still {\k35}holding
+Dialogue: 0,0:00:03.75,0:00:04.83,Default,,0,0,0,,{\k20}on {\k16}to {\k17}last {\k41}year's {\k12}shit?
+Dialogue: 0,0:00:05.66,0:00:07.33,Default,,0,0,0,,{\k35}But {\k14}when {\k12}I {\k33}finally {\k25}do, {\k20}it'll
+Dialogue: 0,0:00:07.33,0:00:08.72,Default,,0,0,0,,{\k12}be {\k13}the {\k28}year's {\k23}biggest {\k30}shit {\k30}happy
+Dialogue: 0,0:00:08.72,0:00:10.46,Default,,0,0,0,,{\k27}face {\k33}happy {\k30}face {\k27}carrot {\k22}so {\k32}happy
+Dialogue: 0,0:00:10.46,0:00:13.27,Default,,0,0,0,,{\k35}face {\k24}happy {\k33}face {\k25}carrot {\k30}far. {\k51}I've
+Dialogue: 0,0:00:13.27,0:00:14.58,Default,,0,0,0,,{\k10}been {\k39}pissing {\k12}out {\k17}my {\k30}ass {\k19}all
+Dialogue: 0,0:00:14.58,0:00:15.22,Default,,0,0,0,,{\k33}fucking {\k30}day.
+Dialogue: 0,0:00:16.07,0:00:17.42,Default,,0,0,0,,{\k32}Bold {\k17}of {\k10}you {\k16}to {\k32}assume {\k26}I'm
+Dialogue: 0,0:00:17.42,0:00:18.42,Default,,0,0,0,,{\k15}going {\k16}to {\k16}take {\k12}a {\k17}shit {\k22}this
+Dialogue: 0,0:00:18.42,0:00:20.66,Default,,0,0,0,,{\k23}year. {\k46}We {\k14}have {\k23}guests {\k28}and {\k14}I
+Dialogue: 0,0:00:20.66,0:00:21.76,Default,,0,0,0,,{\k32}literally {\k48}can't {\k30}relax.
