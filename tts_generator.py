@@ -4,7 +4,6 @@ import asyncio
 import os
 import subprocess
 from pydub import AudioSegment
-from pydub.generators import Sine
 
 #opening json file
 with open('assets/post_data.json') as json_file:
