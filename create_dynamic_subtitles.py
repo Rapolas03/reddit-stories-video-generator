@@ -7,11 +7,11 @@ def create_karaoke_subtitles(whisper_json_path, output_ass_path="assets/dynamic_
     Creates ASS subtitle file with word-by-word karaoke effect
     """
     
-    # Load Whisper JSON
+    # Load Whisper JSON file 
     with open(whisper_json_path, 'r', encoding='utf-8') as f:
         whisper_data = json.load(f)
     
-    # ASS file header
+    # ASS file header arba siknos failo galva kaip vadinu
     ass_content = """[Script Info]
 Title: Dynamic Subtitles
 ScriptType: v4.00+
@@ -49,7 +49,7 @@ Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
         if current_phrase:
             phrases.append(current_phrase)
         
-        # Create ASS dialogue lines with karaoke effect
+        # Create ASS dialogue lines with karaoke effect, lets go party!!!
         for phrase in phrases:
             phrase_start = phrase[0]['start']
             phrase_end = phrase[-1]['end']
@@ -74,7 +74,7 @@ Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
     with open(output_ass_path, 'w', encoding='utf-8') as f:
         f.write(ass_content)
     
-    print(f"✅ Dynamic ASS subtitles created: {output_ass_path}")
+    print(f"Dynamic ASS subtitles created: {output_ass_path}")
     return output_ass_path
 
 

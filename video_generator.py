@@ -20,14 +20,14 @@ def fast_tiktok_render(
     trimmed_path = "trimmed.mp4"
     with_audio = "combined.mp4"
 
-    # --- 1️⃣ Trim video fast (no re-encode) ---
+    # Trim video fast (no re-encode) 
     subprocess.run([
         "ffmpeg", "-y", "-i", video_path,
         "-t", str(trim_length),
         "-an", "-c", "copy", trimmed_path
     ], check=True)
 
-    # --- 2️⃣ Combine trimmed video + main audio ---
+    # Combine trimmed video + main audio 
     subprocess.run([
         "ffmpeg", "-y", "-i", trimmed_path, "-i", audio_path,
         "-map", "0:v", "-map", "1:a",
@@ -36,15 +36,15 @@ def fast_tiktok_render(
         with_audio
     ], check=True)
 
-    # --- 3️⃣ Crop, resize, add subtitles, and overlay screenshot ---
+    # Crop, resize, add subtitles, and overlay screenshot
     if os.path.exists(subtitle_path):
         subtitle_path_escaped = subtitle_path.replace('\\', '/').replace(':', '\\:')
         base_filter = f"crop=in_h*9/16:in_h:(in_w-in_h*9/16)/2:0,scale=1080:1920,ass={subtitle_path_escaped}"
     else:
-        print(f"⚠️ Warning: Subtitle file not found at {subtitle_path}. Proceeding without subtitles.")
+        print(f" Warning: Subtitle file not found at {subtitle_path}. Proceeding without subtitles.")
         base_filter = "crop=in_h*9/16:in_h:(in_w-in_h*9/16)/2:0,scale=1080:1920"
 
-    # --- 🆕 Add overlay image on top for first title_length seconds ---
+    # Add overlay image on top for first title_length seconds 
     # Centered overlay: (main_w-overlay_w)/2 horizontally, (main_h-overlay_h)/2 vertically
     screenshot_path_escaped = screenshot_path.replace("\\", "/")
     vf_filter = (
@@ -61,12 +61,12 @@ def fast_tiktok_render(
         output_path
     ], check=True)
 
-    # --- 4️⃣ Cleanup ---
+    # Cleanup
     for f in [trimmed_path, with_audio]:
         if os.path.exists(f):
             os.remove(f)
 
-    print(f"✅ TikTok video with centered screenshot overlay (first {title_length:.2f}s) ready: {output_path}")
+    print(f"TikTok video with centered screenshot overlay (first {title_length:.2f}s) ready: {output_path}")
 
 
 if __name__ == "__main__":
