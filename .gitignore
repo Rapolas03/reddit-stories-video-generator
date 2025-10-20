@@ -13,6 +13,9 @@ tiktok_fast.mp4
 /assets/output.mp3
 /assets/output.srt
 /assets/video.mp4
+/assets/audio/concat_list.txt
+/assets/audio/silence.mp3
+/assets/audio/silence_1_5s.mp3
 /assets/audio/title.mp3
 /assets/audio/body.mp3
 /assets/audio/comment_*.mp3

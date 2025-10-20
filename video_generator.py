@@ -8,7 +8,8 @@ def fast_tiktok_render(
     subtitle_path="assets/dynamic_subs.ass",
     output_path="tiktok_fast.mp4",
     screenshot_path="assets/screenshots/new.png",
-    title_audio_path="assets/title_output.mp3"
+    #title_audio_path="assets/title_output.mp3"
+    title_audio_path="assets/audio/title.mp3"
 ):
     # Load durations
     audio = mp.AudioFileClip(audio_path)
@@ -77,7 +78,7 @@ if __name__ == "__main__":
     create_karaoke_subtitles("assets/output.json", "assets/dynamic_subs.ass")
 
     fast_tiktok_render(
-        "assets/video_tiktok.mp4",  # Pre-cropped TikTok video
+        "assets/video_tiktok.mp4",  # ✅ Pre-cropped TikTok video
         "assets/output.mp3",
         "assets/dynamic_subs.ass",
         "tiktok_fast.mp4",

@@ -44,7 +44,7 @@ def extractpost():
     with open("assets/post_data.json", "w") as f:
         f.write(post_json)
 
-    print(post_dict)
+    print(post_dict) 
     print(post_json)
 
 if __name__ == "__main__":

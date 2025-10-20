@@ -1,3 +1,5 @@
+#alot of this was generated with chat cuz fuck this shit
+
 from PIL import Image, ImageDraw, ImageFont
 import os
 
@@ -115,15 +117,15 @@ class RedditPostImage:
             try:
                 logo = Image.open(self.logo_path)
                 
-                # Convert to RGBA to handle transparency properly and avoid warnings
+                # Convert to RGBA to handle transparency, nu nes krc reikia seni
                 if logo.mode != 'RGBA':
                     logo = logo.convert('RGBA')
                 
-                # Resize logo to reasonable size (e.g., 60x60 pixels)
+                # Resize logo 
                 logo_size = 60
                 logo = logo.resize((logo_size, logo_size), Image.Resampling.LANCZOS)
                 
-                # Position in top-right corner with some margin
+                # Position in topright corner with margin
                 logo_x = width - logo_size - card_margin - 20
                 logo_y = card_margin + 20
                 
@@ -138,7 +140,7 @@ class RedditPostImage:
         draw.text((text_margin, y_position), subreddit, fill=self.body_color, font=sub_font)
         y_position += 40
         
-        # Draw title (line by line)
+        # Draw title
         for line in title_lines:
             draw.text(
                 (text_margin, y_position),
@@ -152,7 +154,7 @@ class RedditPostImage:
         if body_lines:
             y_position += 30
         
-        # Draw body (line by line)
+        # Draw body 
         for line in body_lines:
             draw.text(
                 (text_margin, y_position),

@@ -12,65 +12,65 @@ Style: Default,Arial,70,&H00FFFFFF,&H00FFFF00,&H00000000,&H80000000,-1,0,0,0,100
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
-Dialogue: 0,0:00:00.00,0:00:01.36,Default,,0,0,0,,{\k24}I {\k22}found {\k15}out {\k19}my {\k20}best {\k34}friend
-Dialogue: 0,0:00:01.36,0:00:03.10,Default,,0,0,0,,{\k19}was {\k15}the {\k26}reason {\k24}my {\k43}engagement {\k43}ended.
-Dialogue: 0,0:00:03.78,0:00:05.32,Default,,0,0,0,,{\k47}I {\k18}thought {\k21}my {\k21}best {\k25}friend {\k18}would
-Dialogue: 0,0:00:05.32,0:00:06.50,Default,,0,0,0,,{\k13}be {\k33}standing {\k25}next {\k20}to {\k12}me {\k12}at
-Dialogue: 0,0:00:06.50,0:00:07.86,Default,,0,0,0,,{\k13}my {\k26}wedding, {\k9}not {\k16}the {\k28}reason {\k16}it
-Dialogue: 0,0:00:07.86,0:00:08.53,Default,,0,0,0,,{\k20}never {\k47}happened.
-Dialogue: 0,0:00:09.48,0:00:11.11,Default,,0,0,0,,{\k21}When {\k24}Ethan {\k40}proposed {\k25}to {\k12}me, {\k11}I
-Dialogue: 0,0:00:11.11,0:00:11.88,Default,,0,0,0,,{\k16}was {\k22}over {\k14}the {\k24}moon.
-Dialogue: 0,0:00:12.75,0:00:14.40,Default,,0,0,0,,{\k38}We'd {\k8}been {\k33}together {\k25}for {\k25}three {\k32}years,
-Dialogue: 0,0:00:14.72,0:00:15.82,Default,,0,0,0,,{\k9}and {\k11}he {\k14}was {\k35}everything {\k17}I {\k20}prayed
-Dialogue: 0,0:00:15.82,0:00:17.46,Default,,0,0,0,,{\k21}for {\k28}kind, {\k19}funny, {\k32}patient.
-Dialogue: 0,0:00:18.28,0:00:20.14,Default,,0,0,0,,{\k39}My {\k26}best {\k32}friend, {\k14}Mia, {\k12}had {\k14}been
-Dialogue: 0,0:00:20.14,0:00:21.78,Default,,0,0,0,,{\k17}there {\k17}since {\k26}high {\k31}school, {\k15}cheering {\k20}me
-Dialogue: 0,0:00:21.78,0:00:22.87,Default,,0,0,0,,{\k16}on {\k17}through {\k32}every {\k43}heartbreak.
-Dialogue: 0,0:00:23.76,0:00:25.35,Default,,0,0,0,,{\k37}She {\k23}cried {\k28}tears {\k21}of {\k28}joy {\k19}when
-Dialogue: 0,0:00:25.35,0:00:26.71,Default,,0,0,0,,{\k10}I {\k19}told {\k17}her {\k23}about {\k18}the {\k45}proposal.
-Dialogue: 0,0:00:27.33,0:00:28.94,Default,,0,0,0,,{\k55}Or {\k16}at {\k16}least, {\k7}I {\k18}thought {\k17}there
-Dialogue: 0,0:00:28.94,0:00:29.80,Default,,0,0,0,,{\k13}were {\k18}tears {\k21}of {\k32}joy.
-Dialogue: 0,0:00:30.71,0:00:32.10,Default,,0,0,0,,{\k20}A {\k17}few {\k21}months {\k35}before {\k19}the {\k22}wedding,
-Dialogue: 0,0:00:32.42,0:00:33.78,Default,,0,0,0,,{\k17}Ethan {\k42}started {\k32}acting {\k43}distant.
-Dialogue: 0,0:00:34.75,0:00:36.79,Default,,0,0,0,,{\k34}He'd {\k28}cancel {\k32}dates, {\k17}avoid {\k38}talking {\k27}about
-Dialogue: 0,0:00:36.79,0:00:38.97,Default,,0,0,0,,{\k28}wedding {\k34}plans, {\k10}and {\k29}always {\k32}looked {\k50}guilty.
-Dialogue: 0,0:00:39.92,0:00:41.32,Default,,0,0,0,,{\k28}I {\k15}thought {\k28}maybe {\k24}he {\k14}was {\k29}stressed
-Dialogue: 0,0:00:41.32,0:00:43.25,Default,,0,0,0,,{\k24}or {\k33}scared, {\k20}normal {\k28}pre {\k29}-wedding {\k32}jitters,
-Dialogue: 0,0:00:43.53,0:00:43.74,Default,,0,0,0,,{\k20}right?
-Dialogue: 0,0:00:44.74,0:00:46.34,Default,,0,0,0,,{\k35}Then, {\k17}one {\k24}night, {\k8}I {\k14}got {\k14}an
-Dialogue: 0,0:00:46.34,0:00:47.82,Default,,0,0,0,,{\k37}anonymous {\k46}message {\k21}on {\k42}Instagram.
-Dialogue: 0,0:00:48.78,0:00:50.70,Default,,0,0,0,,{\k28}It {\k21}said, {\k46}Asterisk, {\k10}you {\k17}should {\k24}ask
-Dialogue: 0,0:00:50.70,0:00:52.14,Default,,0,0,0,,{\k15}your {\k46}fiancé {\k24}about {\k19}the {\k17}girl {\k20}he
-Dialogue: 0,0:00:52.14,0:00:53.50,Default,,0,0,0,,{\k20}drops {\k29}off {\k25}every {\k32}Friday {\k28}night.
-Dialogue: 0,0:00:54.51,0:00:56.20,Default,,0,0,0,,{\k56}Asterisk, {\k17}I {\k28}didn't {\k17}want {\k17}to {\k30}believe
-Dialogue: 0,0:00:56.20,0:00:56.50,Default,,0,0,0,,{\k29}it.
-Dialogue: 0,0:00:56.89,0:00:58.75,Default,,0,0,0,,{\k56}But {\k32}something {\k15}in {\k12}the {\k32}maybe {\k37}fear,
-Dialogue: 0,0:00:59.03,0:01:00.53,Default,,0,0,0,,{\k17}maybe {\k53}intuition, {\k15}needed {\k18}to {\k19}know.
-Dialogue: 0,0:01:01.24,0:01:03.85,Default,,0,0,0,,{\k53}So {\k15}I {\k32}followed {\k26}him. {\k7}My {\k24}hands
-Dialogue: 0,0:01:03.85,0:01:05.28,Default,,0,0,0,,{\k20}were {\k35}shaking {\k21}as {\k9}I {\k28}watched {\k26}his
-Dialogue: 0,0:01:05.28,0:01:06.54,Default,,0,0,0,,{\k23}car {\k21}pull {\k18}up {\k14}to {\k9}an {\k38}apartment
-Dialogue: 0,0:01:06.54,0:01:07.18,Default,,0,0,0,,{\k64}complex.
-Dialogue: 0,0:01:08.06,0:01:09.93,Default,,0,0,0,,{\k28}A {\k17}few {\k24}minutes {\k43}later, {\k17}Mia {\k34}walked
-Dialogue: 0,0:01:09.93,0:01:13.37,Default,,0,0,0,,{\k26}out. {\k31}She {\k40}hugged {\k17}him. {\k21}He {\k28}kissed
-Dialogue: 0,0:01:13.37,0:01:13.62,Default,,0,0,0,,{\k24}her.
-Dialogue: 0,0:01:14.65,0:01:17.45,Default,,0,0,0,,{\k14}My {\k40}entire {\k35}world {\k29}cracked {\k43}open. {\k21}I
-Dialogue: 0,0:01:17.45,0:01:18.81,Default,,0,0,0,,{\k30}didn't {\k31}confront {\k28}them {\k18}right {\k27}away.
-Dialogue: 0,0:01:19.59,0:01:21.51,Default,,0,0,0,,{\k48}I {\k15}went {\k30}home, {\k20}printed {\k17}the {\k21}photo
-Dialogue: 0,0:01:21.51,0:01:22.92,Default,,0,0,0,,{\k21}I {\k21}took, {\k14}and {\k25}placed {\k16}it {\k15}in
-Dialogue: 0,0:01:22.92,0:01:24.12,Default,,0,0,0,,{\k14}an {\k28}envelope {\k31}on {\k15}his {\k30}pillow.
-Dialogue: 0,0:01:24.95,0:01:26.35,Default,,0,0,0,,{\k34}When {\k12}he {\k20}came {\k25}over {\k20}that {\k28}night,
-Dialogue: 0,0:01:26.62,0:01:29.12,Default,,0,0,0,,{\k11}his {\k21}face {\k26}went {\k32}pale. {\k26}He {\k35}didn't
-Dialogue: 0,0:01:29.12,0:01:29.65,Default,,0,0,0,,{\k29}deny {\k23}it.
-Dialogue: 0,0:01:30.45,0:01:32.14,Default,,0,0,0,,{\k28}He {\k21}said {\k12}it {\k15}just {\k44}happened {\k45}that
-Dialogue: 0,0:01:32.14,0:01:32.73,Default,,0,0,0,,{\k17}they {\k42}connected.
-Dialogue: 0,0:01:33.85,0:01:35.59,Default,,0,0,0,,{\k18}Mia {\k31}texted {\k23}me {\k28}later, {\k21}saying {\k21}she
-Dialogue: 0,0:01:35.59,0:01:36.81,Default,,0,0,0,,{\k26}didn't {\k18}mean {\k15}to {\k17}hurt {\k20}me {\k23}that
-Dialogue: 0,0:01:36.81,0:01:37.81,Default,,0,0,0,,{\k18}she {\k21}fell {\k12}in {\k15}love {\k31}too.
-Dialogue: 0,0:01:38.79,0:01:41.48,Default,,0,0,0,,{\k15}I {\k34}blocked {\k24}them {\k29}both. {\k18}I {\k42}canceled
-Dialogue: 0,0:01:41.48,0:01:43.84,Default,,0,0,0,,{\k21}the {\k23}wedding. {\k35}That {\k23}was {\k10}a {\k21}year
-Dialogue: 0,0:01:43.84,0:01:44.07,Default,,0,0,0,,{\k23}ago.
-Dialogue: 0,0:01:44.85,0:01:47.57,Default,,0,0,0,,{\k51}I'm {\k21}healing {\k28}now, {\k21}therapy, {\k32}journaling, {\k28}slowly
-Dialogue: 0,0:01:47.57,0:01:49.06,Default,,0,0,0,,{\k37}rebuilding {\k42}trust {\k20}in {\k48}myself.
-Dialogue: 0,0:01:49.70,0:01:51.50,Default,,0,0,0,,{\k51}But {\k42}sometimes, {\k7}when {\k9}I {\k20}pass {\k20}by
-Dialogue: 0,0:01:51.50,0:01:53.00,Default,,0,0,0,,{\k14}a {\k34}bridal {\k23}shop, {\k10}I {\k20}still {\k23}feel
-Dialogue: 0,0:01:53.00,0:01:53.45,Default,,0,0,0,,{\k18}that {\k27}sting.
+Dialogue: 0,0:00:00.00,0:00:01.36,Default,,0,0,0,,{\k24}I {\k20}found {\k18}out {\k19}my {\k20}best {\k34}friend
+Dialogue: 0,0:00:01.36,0:00:03.08,Default,,0,0,0,,{\k19}was {\k15}the {\k26}reason {\k24}my {\k46}engagement {\k39}ended.
+Dialogue: 0,0:00:05.66,0:00:06.86,Default,,0,0,0,,{\k13}I {\k18}thought {\k19}my {\k22}best {\k27}friend {\k18}would
+Dialogue: 0,0:00:06.86,0:00:08.01,Default,,0,0,0,,{\k13}be {\k33}standing {\k25}next {\k20}to {\k12}me {\k9}at
+Dialogue: 0,0:00:08.01,0:00:09.40,Default,,0,0,0,,{\k16}my {\k25}wedding, {\k8}not {\k18}the {\k27}reason {\k16}it
+Dialogue: 0,0:00:09.40,0:00:10.08,Default,,0,0,0,,{\k19}never {\k48}happened.
+Dialogue: 0,0:00:11.03,0:00:12.64,Default,,0,0,0,,{\k18}When {\k25}Ethan {\k37}proposed {\k28}to {\k11}me, {\k10}I
+Dialogue: 0,0:00:12.64,0:00:13.41,Default,,0,0,0,,{\k16}was {\k23}over {\k14}the {\k24}moon.
+Dialogue: 0,0:00:14.24,0:00:15.93,Default,,0,0,0,,{\k43}We'd {\k8}been {\k32}together {\k27}for {\k24}three {\k33}years,
+Dialogue: 0,0:00:16.26,0:00:17.35,Default,,0,0,0,,{\k7}and {\k12}he {\k14}was {\k35}everything {\k17}I {\k21}prayed
+Dialogue: 0,0:00:17.35,0:00:18.98,Default,,0,0,0,,{\k21}for {\k28}kind, {\k18}funny, {\k30}patient.
+Dialogue: 0,0:00:19.89,0:00:21.67,Default,,0,0,0,,{\k30}My {\k26}best {\k32}friend, {\k14}Mia, {\k9}had {\k16}been
+Dialogue: 0,0:00:21.67,0:00:23.32,Default,,0,0,0,,{\k17}there {\k17}since {\k26}high {\k33}school, {\k16}cheering {\k19}me
+Dialogue: 0,0:00:23.32,0:00:24.42,Default,,0,0,0,,{\k16}on {\k17}through {\k32}every {\k44}heartbreak.
+Dialogue: 0,0:00:25.37,0:00:26.87,Default,,0,0,0,,{\k28}She {\k23}cried {\k28}tears {\k24}of {\k25}joy {\k19}when
+Dialogue: 0,0:00:26.87,0:00:28.23,Default,,0,0,0,,{\k12}I {\k19}told {\k17}her {\k24}about {\k17}the {\k43}proposal.
+Dialogue: 0,0:00:28.90,0:00:30.48,Default,,0,0,0,,{\k51}Or {\k15}at {\k18}least, {\k10}I {\k17}thought {\k17}they
+Dialogue: 0,0:00:30.48,0:00:31.32,Default,,0,0,0,,{\k12}were {\k17}tears {\k21}of {\k32}joy.
+Dialogue: 0,0:00:32.24,0:00:33.64,Default,,0,0,0,,{\k21}A {\k17}few {\k21}months {\k34}before {\k21}the {\k21}wedding,
+Dialogue: 0,0:00:33.96,0:00:35.32,Default,,0,0,0,,{\k15}Ethan {\k42}started {\k32}acting {\k46}distant.
+Dialogue: 0,0:00:36.29,0:00:38.34,Default,,0,0,0,,{\k34}He'd {\k28}cancel {\k32}dates, {\k17}avoid {\k38}talking {\k30}about
+Dialogue: 0,0:00:38.34,0:00:40.52,Default,,0,0,0,,{\k27}wedding {\k34}plans, {\k11}and {\k28}always {\k32}looked {\k52}guilty.
+Dialogue: 0,0:00:41.47,0:00:42.84,Default,,0,0,0,,{\k26}I {\k15}thought {\k25}maybe {\k26}he {\k14}was {\k28}stressed
+Dialogue: 0,0:00:42.84,0:00:44.78,Default,,0,0,0,,{\k25}or {\k32}scared, {\k17}normal {\k27}pre {\k32}-wedding {\k30}jitters,
+Dialogue: 0,0:00:45.07,0:00:45.28,Default,,0,0,0,,{\k20}right?
+Dialogue: 0,0:00:46.28,0:00:47.88,Default,,0,0,0,,{\k33}Then, {\k15}one {\k24}night, {\k5}I {\k16}got {\k14}an
+Dialogue: 0,0:00:47.88,0:00:49.35,Default,,0,0,0,,{\k37}anonymous {\k44}message {\k21}on {\k43}Instagram.
+Dialogue: 0,0:00:50.35,0:00:52.24,Default,,0,0,0,,{\k24}It {\k21}said, {\k46}Asterisk, {\k10}you {\k17}should {\k24}ask
+Dialogue: 0,0:00:52.24,0:00:53.65,Default,,0,0,0,,{\k15}your {\k46}fiancé {\k21}about {\k21}the {\k17}girl {\k17}he
+Dialogue: 0,0:00:53.65,0:00:55.03,Default,,0,0,0,,{\k22}drops {\k29}off {\k25}every {\k32}Friday {\k28}night.
+Dialogue: 0,0:00:56.06,0:00:57.71,Default,,0,0,0,,{\k55}Asterisk, {\k16}I {\k29}didn't {\k17}want {\k16}to {\k29}believe
+Dialogue: 0,0:00:57.71,0:00:58.02,Default,,0,0,0,,{\k30}it.
+Dialogue: 0,0:00:58.43,0:01:00.29,Default,,0,0,0,,{\k56}But {\k29}something {\k17}in {\k12}the {\k32}maybe {\k37}fear,
+Dialogue: 0,0:01:00.57,0:01:02.07,Default,,0,0,0,,{\k16}maybe {\k55}intuition, {\k16}needed {\k17}to {\k19}know.
+Dialogue: 0,0:01:02.76,0:01:05.40,Default,,0,0,0,,{\k55}So {\k15}I {\k32}followed {\k26}him. {\k9}My {\k24}hands
+Dialogue: 0,0:01:05.40,0:01:06.79,Default,,0,0,0,,{\k19}were {\k34}shaking {\k24}as {\k9}I {\k28}watched {\k23}his
+Dialogue: 0,0:01:06.79,0:01:08.07,Default,,0,0,0,,{\k24}car {\k23}pull {\k15}up {\k14}to {\k12}an {\k37}apartment
+Dialogue: 0,0:01:08.07,0:01:08.70,Default,,0,0,0,,{\k62}complex.
+Dialogue: 0,0:01:09.59,0:01:11.50,Default,,0,0,0,,{\k28}A {\k18}few {\k21}minutes {\k43}later, {\k14}Mia {\k37}walked
+Dialogue: 0,0:01:11.50,0:01:14.87,Default,,0,0,0,,{\k23}out. {\k29}She {\k39}hugged {\k16}him. {\k21}He {\k23}kissed
+Dialogue: 0,0:01:14.87,0:01:15.14,Default,,0,0,0,,{\k26}her.
+Dialogue: 0,0:01:16.20,0:01:18.98,Default,,0,0,0,,{\k14}My {\k39}entire {\k35}world {\k30}cracked {\k43}open. {\k34}I
+Dialogue: 0,0:01:18.98,0:01:20.35,Default,,0,0,0,,{\k31}didn't {\k32}confront {\k25}them {\k18}right {\k29}away.
+Dialogue: 0,0:01:21.14,0:01:23.06,Default,,0,0,0,,{\k48}I {\k15}went {\k28}home, {\k18}printed {\k20}the {\k21}photo
+Dialogue: 0,0:01:23.06,0:01:24.43,Default,,0,0,0,,{\k21}I {\k21}took, {\k7}and {\k26}placed {\k15}it {\k15}in
+Dialogue: 0,0:01:24.43,0:01:25.65,Default,,0,0,0,,{\k15}an {\k26}envelope {\k34}on {\k15}his {\k29}pillow.
+Dialogue: 0,0:01:26.50,0:01:27.90,Default,,0,0,0,,{\k34}When {\k11}he {\k20}came {\k26}over {\k20}that {\k28}night,
+Dialogue: 0,0:01:28.14,0:01:30.65,Default,,0,0,0,,{\k14}his {\k20}face {\k28}went {\k31}pale. {\k25}He {\k35}didn't
+Dialogue: 0,0:01:30.65,0:01:31.20,Default,,0,0,0,,{\k29}deny {\k24}it.
+Dialogue: 0,0:01:32.04,0:01:33.68,Default,,0,0,0,,{\k23}He {\k20}said {\k11}it {\k18}just {\k43}happened {\k46}that
+Dialogue: 0,0:01:33.68,0:01:34.26,Default,,0,0,0,,{\k15}they {\k42}connected.
+Dialogue: 0,0:01:35.40,0:01:37.12,Default,,0,0,0,,{\k15}Mia {\k31}texted {\k24}me {\k29}later, {\k21}saying {\k20}she
+Dialogue: 0,0:01:37.12,0:01:38.35,Default,,0,0,0,,{\k28}didn't {\k15}mean {\k15}to {\k20}hurt {\k20}me {\k23}that
+Dialogue: 0,0:01:38.35,0:01:39.34,Default,,0,0,0,,{\k15}she {\k24}fell {\k11}in {\k16}love {\k29}too.
+Dialogue: 0,0:01:40.29,0:01:43.01,Default,,0,0,0,,{\k20}I {\k31}blocked {\k24}them {\k29}both. {\k17}I {\k42}canceled
+Dialogue: 0,0:01:43.01,0:01:45.35,Default,,0,0,0,,{\k21}the {\k24}wedding. {\k34}That {\k24}was {\k11}a {\k20}year
+Dialogue: 0,0:01:45.35,0:01:45.62,Default,,0,0,0,,{\k26}ago.
+Dialogue: 0,0:01:46.38,0:01:49.09,Default,,0,0,0,,{\k51}I'm {\k23}healing {\k26}now, {\k21}therapy, {\k29}journaling, {\k25}slowly
+Dialogue: 0,0:01:49.09,0:01:50.57,Default,,0,0,0,,{\k42}rebuilding {\k40}trust {\k17}in {\k48}myself.
+Dialogue: 0,0:01:51.21,0:01:53.04,Default,,0,0,0,,{\k51}But {\k42}sometimes, {\k7}when {\k12}I {\k20}pass {\k20}by
+Dialogue: 0,0:01:53.04,0:01:54.51,Default,,0,0,0,,{\k11}a {\k35}bridal {\k24}shop, {\k9}I {\k20}still {\k21}feel
+Dialogue: 0,0:01:54.51,0:01:55.00,Default,,0,0,0,,{\k18}that {\k29}sting.

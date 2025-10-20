@@ -7,7 +7,7 @@ import os
 import json
 from reddit_fetcher import extractpost
 from screenshot_reddit import RedditPostImage
-from tts_generator import single_file
+from tts_generator import single_file, multiple_files
 from create_dynamic_subtitles import create_karaoke_subtitles
 from video_generator import fast_tiktok_render
 
@@ -34,7 +34,7 @@ def main():
     
     # Step 3: Generate TTS audio
     print("\n[Step 3/5] Generating text-to-speech audio...")
-    single_file()
+    multiple_files()
     
     # Step 4: Create dynamic subtitles
     print("\n[Step 4/5] Creating word-level subtitles...")
