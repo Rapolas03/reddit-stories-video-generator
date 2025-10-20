@@ -3,6 +3,8 @@ import json
 import asyncio
 import os
 import subprocess
+from pydub import AudioSegment
+from pydub.generators import Sine
 
 #opening json file
 with open('assets/post_data.json') as json_file:
@@ -54,15 +56,25 @@ def single_file():
 
 #tranfering every part of json file in to a list and generating multiple audio files
 def multiple_files():
-    post_data_list =[
+    """
+    Generates separate audio files for title, body, and comments,
+    adds natural pauses between sections, and concatenates them into output.mp3
+    """
+    # Create output directory if it doesn't exist
+    output_dir = "assets/audio"
+    os.makedirs(output_dir, exist_ok=True)
+    
+    # Prepare data structure with labels
+    post_data_list = [
         ("title", json_todict["title"]),
         ("body", json_todict["body"])
     ]
 
     for i, comment in enumerate(json_todict["comments"], start=1):
-        post_data_list.append((f"comment_{i}",comment))
+        post_data_list.append((f"comment_{i}", comment))
     
     async def generate_speech(strings, output_dir="assets/audio"):
+        """Generate individual audio files for each section"""
         audio_files = []
         for label, text in strings:
             voice = "en-US-GuyNeural"
@@ -74,9 +86,53 @@ def multiple_files():
 
         return audio_files
     
-    audio_files = asyncio.run(generate_speech(post_data_list))
-    print("\nAll audio files generated in order:")
-    print(audio_files)
+    # Generate all audio files
+    audio_files = asyncio.run(generate_speech(post_data_list, output_dir))
+    print("\nAll audio files generated successfully!")
+    
+    # Create natural pauses (1.5 seconds of silence)
+    pause_duration_ms = 1500  # 1.5 seconds
+    silence = AudioSegment.silent(duration=pause_duration_ms)
+    
+    # Concatenate audio files with pauses
+    print("\nConcatenating audio files with natural pauses...")
+    combined = AudioSegment.empty()
+    
+    for i, audio_file in enumerate(audio_files):
+        # Load the audio segment
+        segment = AudioSegment.from_mp3(audio_file)
+        combined += segment
+        
+        # Add pause after each segment except the last one
+        if i < len(audio_files) - 1:
+            combined += silence
+            print(f"Added pause after {os.path.basename(audio_file)}")
+    
+    # Export the final combined audio
+    output_path = "assets/output.mp3"
+    combined.export(output_path, format="mp3")
+    print(f"\nFinal audio exported to: {output_path}")
+    
+    # Generate title-only audio for video overlay
+    title_data = [("title", json_todict['title'])]
+    asyncio.run(generate_speech(title_data, "assets"))
+    # Rename to title_output.mp3 for compatibility
+    if os.path.exists("assets/title.mp3"):
+        os.rename("assets/title.mp3", "assets/title_output.mp3")
+    print("Title audio generated successfully!")
+    
+    # Generate word-level subtitles using Whisper
+    print("\nGenerating word-level subtitles with Whisper...")
+    subprocess.run([
+        "whisper",
+        output_path,
+        "--model", "base",
+        "--output_format", "json",
+        "--output_dir", "assets",
+        "--word_timestamps", "True"
+    ])
+    print("Word-level subtitles generated!")
+
     
 
 
@@ -85,5 +141,4 @@ def multiple_files():
 #print(post_data_list)
 
 if __name__ == "__main__":
-    #multiple_files()
-    single_file()
+    multiple_files()
