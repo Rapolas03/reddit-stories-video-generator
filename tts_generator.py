@@ -2,6 +2,7 @@ import edge_tts
 import json
 import asyncio
 import os
+import subprocess
 
 #opening json file
 with open('assets/post_data.json') as json_file:
@@ -11,13 +12,16 @@ with open('assets/post_data.json') as json_file:
 def single_file():
     post_data_list = []
     post_data_list.append(json_todict['title'])
+    post_data_list.append(" ... ")
     post_data_list.append(json_todict['body'])
+    post_data_list.append(" ... ")
     for comment in json_todict['comments']:
         post_data_list.append(comment)
+        post_data_list.append(" ... ")
 
 
     async def generate_speech(strings, output_file="assets/output.mp3"):
-        text = " ... ".join(strings)  # each "..." acts as a small pause
+        text = "".join(strings)  # each "..." acts as a small pause
         voice = "en-US-GuyNeural"
         communicate = edge_tts.Communicate(text, voice)
         await communicate.save(output_file)
@@ -25,6 +29,16 @@ def single_file():
 
     asyncio.run(generate_speech(post_data_list))
     print("Speech generated successfully!")
+
+    print("Generating subtitles with Whisper...")
+    subprocess.run([
+        "whisper",
+        "assets/output.mp3",
+        "--model", "base",
+        "--output_format", "srt",
+        "--output_dir", "assets"
+    ])
+    print("Subtitles generated!")
 
 #tranfering every part of json file in to a list and generating multiple audio files
 def multiple_files():

@@ -1,7 +1,10 @@
 /venv
 .env
+tiktok_fast.mp4
 /assets/post_data.json
 /assets/output.mp3
+/assets/output.srt
+/assets/video.mp4
 /assets/audio/title.mp3
 /assets/audio/body.mp3
 /assets/audio/comment_*.mp3
