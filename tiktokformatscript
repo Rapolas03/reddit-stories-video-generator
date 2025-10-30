@@ -1,0 +1,5 @@
+ffmpeg -i assets/video.mp4 \
+-vf "scale=1080:1920:force_original_aspect_ratio=increase,crop=1080:1920" \
+-c:v libx264 -crf 18 -preset veryfast \
+-c:a copy \
+assets/video_tiktok.mp4

@@ -55,7 +55,7 @@ def fast_tiktok_render(
     subprocess.run([
         "ffmpeg", "-y", "-i", with_audio,
         "-filter_complex", vf_filter,
-        "-c:v", "libx264", "-preset", "ultrafast",  # ✅ fastest possible encoding
+        "-c:v", "libx264", "-preset", "ultrafast",  #  fastest possible encoding
         "-crf", "23",  # trade-off between speed and quality
         "-c:a", "aac",
         "-pix_fmt", "yuv420p",
@@ -68,7 +68,7 @@ def fast_tiktok_render(
         if os.path.exists(f):
             os.remove(f)
 
-    print(f"✅ Fast TikTok render complete: {output_path} (subtitles re-burned, overlay first {title_length:.2f}s)")
+    print(f"Fast TikTok render complete: {output_path} (subtitles re-burned, overlay first {title_length:.2f}s)")
 
 
 if __name__ == "__main__":
@@ -78,7 +78,7 @@ if __name__ == "__main__":
     create_karaoke_subtitles("assets/output.json", "assets/dynamic_subs.ass")
 
     fast_tiktok_render(
-        "assets/video_tiktok.mp4",  # ✅ Pre-cropped TikTok video
+        "assets/video_tiktok.mp4",  # Pre-cropped TikTok video
         "assets/output.mp3",
         "assets/dynamic_subs.ass",
         "tiktok_fast.mp4",
