@@ -14,8 +14,12 @@ def single_file():
     post_data_list = []
     post_data_list.append(json_todict['title'])
     post_data_list.append(" ... ")
-    post_data_list.append(json_todict['body'])
-    post_data_list.append(" ... ")
+    
+    # Only add body if it's not empty
+    if json_todict.get('body') and json_todict['body'].strip():
+        post_data_list.append(json_todict['body'])
+        post_data_list.append(" ... ")
+    
     for comment in json_todict['comments']:
         post_data_list.append(comment)
         post_data_list.append(" ... ")
@@ -61,14 +65,23 @@ def multiple_files(clean_temp=False):
 
     post_data_list = [
         ("title", json_todict["title"]),
-        ("body", json_todict["body"])
     ]
+    
+    # Only add body if it's not empty
+    if json_todict.get("body") and json_todict["body"].strip():
+        post_data_list.append(("body", json_todict["body"]))
+    
     for i, comment in enumerate(json_todict["comments"], start=1):
         post_data_list.append((f"comment_{i}", comment))
 
     async def generate_speech(strings, output_dir=output_dir):
         audio_files = []
         for label, text in strings:
+            # Skip empty texts
+            if not text or not text.strip():
+                print(f"Skipping empty text for {label}")
+                continue
+                
             voice = "en-US-GuyNeural"
             filename = os.path.join(output_dir, f"{label}.mp3")
             communicate = edge_tts.Communicate(text, voice)
