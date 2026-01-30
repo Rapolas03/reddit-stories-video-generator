@@ -1,4 +1,4 @@
-#nu krc cia dar padirbet reikia
+
 import edge_tts
 import json
 import asyncio
