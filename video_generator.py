@@ -23,14 +23,14 @@ def fast_tiktok_render(
     trimmed_path = "trimmed.mp4"
     with_audio = "combined.mp4"
 
-    # Trim video fast (no re-encode)
+    # Trim video 
     subprocess.run([
         "ffmpeg", "-y", "-i", video_path,
         "-t", str(trim_length),
         "-an", "-c", "copy", trimmed_path
     ], check=True)
 
-    # Combine trimmed video + main audio (no video re-encode)
+    # Combine trimmed video + main audio 
     subprocess.run([
         "ffmpeg", "-y", "-i", trimmed_path, "-i", audio_path,
         "-map", "0:v", "-map", "1:a",
@@ -39,7 +39,7 @@ def fast_tiktok_render(
         with_audio
     ], check=True)
 
-    # Apply subtitles + overlay image (only one encoding step)
+    # Apply subtitles + overlay image 
     subtitle_path_escaped = subtitle_path.replace("\\", "/").replace(":", "\\:")
     screenshot_path_escaped = screenshot_path.replace("\\", "/")
 
