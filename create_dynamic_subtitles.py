@@ -11,7 +11,7 @@ def create_karaoke_subtitles(whisper_json_path, output_ass_path="assets/dynamic_
     with open(whisper_json_path, 'r', encoding='utf-8') as f:
         whisper_data = json.load(f)
     
-    # ASS file header arba siknos failo galva kaip vadinu
+    # ASS file header 
     ass_content = """[Script Info]
 Title: Dynamic Subtitles
 ScriptType: v4.00+
